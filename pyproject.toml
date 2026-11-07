@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "book-management-system"
-version = "0.1.0"
-description = "Laboratory work 1, variant 2: book management"
+version = "0.2.0"
+description = "Laboratory work 2, variant 2: collections and book analytics"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{name = "Бровді Олександр"}]

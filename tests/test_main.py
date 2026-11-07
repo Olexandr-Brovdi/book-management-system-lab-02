@@ -5,7 +5,7 @@ import unittest
 from contextlib import redirect_stdout
 from unittest.mock import patch
 
-from book_manager.main import run_demo, run_menu
+from book_manager.legacy_cli import run_demo, run_menu
 
 
 class ConsoleTests(unittest.TestCase):
