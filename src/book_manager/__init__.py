@@ -1,3 +1,3 @@
-"""Book management application for laboratory work 1, variant 2."""
+"""Book analytics, laboratory work 2, variant 2."""
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
