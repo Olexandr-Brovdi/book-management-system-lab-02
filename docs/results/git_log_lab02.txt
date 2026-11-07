@@ -1,0 +1,6 @@
+50612d3 Add reproducible search benchmark tests and Lab_02 layout
+df4270e Add lab 2 book collections analytics closures and timing decorator
+81aa8a0 Add variant 2 report screenshots and polish test formatting
+ec6e666 Document installation and add validation and behavior tests
+accad4b Implement variant 2 book model services and console interface
+559181b Create src-layout and project configuration

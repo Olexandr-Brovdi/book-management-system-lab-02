@@ -1,0 +1,39 @@
+test_average (test_analytics.AnalyticsTests.test_average) ... ok
+test_closures_are_independent (test_analytics.AnalyticsTests.test_closures_are_independent) ... ok
+test_decorator_preserves_exception (test_analytics.AnalyticsTests.test_decorator_preserves_exception) ... ok
+test_decorator_returns_value_and_keeps_metadata (test_analytics.AnalyticsTests.test_decorator_returns_value_and_keeps_metadata) ... ok
+test_kwargs_and_summary (test_analytics.AnalyticsTests.test_kwargs_and_summary) ... ok
+test_measurement_shape (test_benchmark.BenchmarkTests.test_measurement_shape) ... ok
+test_search_correctness (test_benchmark.BenchmarkTests.test_search_correctness) ... ok
+test_benchmark_output_requires_benchmark (test_lab02_cli.Lab02CliTests.test_benchmark_output_requires_benchmark) ... usage: book-manager [-h] [--interactive] [--benchmark] [--export EXPORT]
+                    [--benchmark-output BENCHMARK_OUTPUT]
+book-manager: error: --benchmark-output потребує --benchmark
+ok
+test_demo (test_lab02_cli.Lab02CliTests.test_demo) ... ok
+test_export (test_lab02_cli.Lab02CliTests.test_export) ... Середня кількість сторінок average_pages: 0.00000160 s
+Середня кількість сторінок average_pages: 0.00000080 s
+Середня кількість сторінок average_pages: 0.00000150 s
+ok
+test_demo (test_main.ConsoleTests.test_demo) ... ok
+test_eof (test_main.ConsoleTests.test_eof) ... ok
+test_invalid_input (test_main.ConsoleTests.test_invalid_input) ... ok
+test_menu_operations (test_main.ConsoleTests.test_menu_operations) ... ok
+test_invalid_fields (test_models.ModelTests.test_invalid_fields) ... ok
+test_normalization (test_models.ModelTests.test_normalization) ... ok
+test_empty (test_processors.ProcessorTests.test_empty) ... ok
+test_grouping (test_processors.ProcessorTests.test_grouping) ... ok
+test_title_index_duplicate (test_processors.ProcessorTests.test_title_index_duplicate) ... ok
+test_unique_and_counter (test_processors.ProcessorTests.test_unique_and_counter) ... ok
+test_universal_filter (test_processors.ProcessorTests.test_universal_filter) ... ok
+test_year_and_sort (test_processors.ProcessorTests.test_year_and_sort) ... ok
+test_add (test_services.ServiceTests.test_add) ... ok
+test_author (test_services.ServiceTests.test_author) ... ok
+test_empty (test_services.ServiceTests.test_empty) ... ok
+test_largest_and_average (test_services.ServiceTests.test_largest_and_average) ... ok
+test_sort_and_ties (test_services.ServiceTests.test_sort_and_ties) ... ok
+test_year (test_services.ServiceTests.test_year) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.010s
+
+OK

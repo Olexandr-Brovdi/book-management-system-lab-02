@@ -10,6 +10,9 @@ readme = "README.md"
 requires-python = ">=3.11"
 authors = [{name = "Бровді Олександр"}]
 
+[project.optional-dependencies]
+report = ["python-docx>=1.1", "Pillow>=10"]
+
 [project.scripts]
 book-manager = "book_manager.main:main"
 

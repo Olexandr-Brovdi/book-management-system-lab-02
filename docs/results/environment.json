@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-07",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "queries": 200,
+  "repeats": 5,
+  "method": "median of repeated batches; seconds per lookup"
+}

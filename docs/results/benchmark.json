@@ -1,0 +1,56 @@
+[
+  {
+    "records": 1000,
+    "case": "last",
+    "list_seconds": 1.554250018671155e-05,
+    "dict_seconds": 2.8500217013061046e-08,
+    "build_seconds": 2.2700017628570397e-05,
+    "queries_per_batch": 200,
+    "repeats": 5
+  },
+  {
+    "records": 1000,
+    "case": "missing",
+    "list_seconds": 1.578849973157048e-05,
+    "dict_seconds": 2.300017513334751e-08,
+    "build_seconds": 2.2700017628570397e-05,
+    "queries_per_batch": 200,
+    "repeats": 5
+  },
+  {
+    "records": 10000,
+    "case": "last",
+    "list_seconds": 0.00016097049985546618,
+    "dict_seconds": 2.8000213205814363e-08,
+    "build_seconds": 0.00025809998624026775,
+    "queries_per_batch": 200,
+    "repeats": 5
+  },
+  {
+    "records": 10000,
+    "case": "missing",
+    "list_seconds": 0.00016064300027210265,
+    "dict_seconds": 2.3500178940594197e-08,
+    "build_seconds": 0.00025809998624026775,
+    "queries_per_batch": 200,
+    "repeats": 5
+  },
+  {
+    "records": 100000,
+    "case": "last",
+    "list_seconds": 0.0016288489999715238,
+    "dict_seconds": 2.8000213205814363e-08,
+    "build_seconds": 0.005411333326871197,
+    "queries_per_batch": 200,
+    "repeats": 5
+  },
+  {
+    "records": 100000,
+    "case": "missing",
+    "list_seconds": 0.001983589499723166,
+    "dict_seconds": 2.9500224627554417e-08,
+    "build_seconds": 0.005411333326871197,
+    "queries_per_batch": 200,
+    "repeats": 5
+  }
+]

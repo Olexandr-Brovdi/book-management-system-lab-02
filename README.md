@@ -94,3 +94,14 @@ Benchmark: 1 000, 10 000, 100 000 записів `(ID, назва)`, 200 пош�
 параметризований decorator з functools.wraps, Counter, benchmark та JSON export.
 Decorator передає *args/**kwargs, повертає результат і не приховує винятки;
 час передається через logging, а не домішується до обчислюваних значень.
+
+## Повторне формування звіту
+
+```text
+python -m pip install -e ".[report]"
+python tools/create_report_assets.py
+python tools/build_report.py
+```
+
+Засіб зображення консольного виводу використовує Windows-шрифт Consolas.
+Після нового benchmark звіт відобразить нові вимірювання.

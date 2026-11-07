@@ -15,6 +15,7 @@ from book_manager.analytics import (
 from book_manager.benchmark import print_results, run_benchmark, save_results
 from book_manager.data import BOOK_FIELDS, create_books
 from book_manager.legacy_cli import print_books, run_menu
+from book_manager.models import Book
 from book_manager.processors import (
     count_by_author,
     create_title_index,
@@ -28,7 +29,7 @@ from book_manager.processors import (
 from book_manager.services import find_largest_book
 
 
-def show_section(title: str, books: list) -> None:
+def show_section(title: str, books: list[Book]) -> None:
     print(f"\n{title}")
     print_books(books)
 
