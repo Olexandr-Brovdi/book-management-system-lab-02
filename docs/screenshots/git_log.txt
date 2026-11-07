@@ -1,4 +1,0 @@
-git log --oneline
-ec6e666 Document installation and add validation and behavior tests
-accad4b Implement variant 2 book model services and console interface
-559181b Create src-layout and project configuration
